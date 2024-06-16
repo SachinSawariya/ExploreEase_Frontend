@@ -5,7 +5,7 @@ import image1 from "./PackagesImages/Rammandirr.webp";
 import image2 from "./PackagesImages/jaipur.webp";
 import image3 from "./PackagesImages/goa.jpg";
 import image4 from "./PackagesImages/kerala1.jpg";
-import image5 from "./PackagesImages/golden3.jpg";
+import image5 from "./PackagesImages/Golden3.jpg";
 
 const Packages = () => {
   const [filter, setFilter] = useState("all"); // State to manage the selected filter
