@@ -1,0 +1,110 @@
+:root {
+    --orange: #ff7800;
+    --black: #130f40;
+    --light-color: #666;
+    --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+    --border: 0.2rem solid rgba(0, 0, 0, 0.1);
+    --outline: 0.1rem solid rgba(0, 0, 0, 0.1);
+    --outline-hover: 0.2rem solid var(--black);
+}
+
+.main-signup {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./logsigBack.jpg");
+    background-position: center bottom;
+}
+
+.signup_cart {
+    width: 100%;
+    display: flex;
+}
+
+.form_ {
+    background-color: white;
+    height: 41rem;
+    width: auto;
+    font-family: monospace;
+    padding: 3rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+
+}
+
+.form_ div {
+    margin: .5rem;
+}
+
+.form_ h1 {
+    font-size: 2.6rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* p {
+    margin: 1rem;
+  } */
+
+.form_ label {
+    font-size: 1.2rem;
+}
+
+.form_ input {
+    height: 3rem;
+    width: 25rem;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    text-align: center;
+}
+
+#btn_signup {
+    width: 10rem;
+    height: 4rem;
+    background-color: orange;
+    color: white;
+    font-family: monospace;
+    cursor: pointer;
+    border: hidden;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#btn_signup:hover {
+    width: 10rem;
+    height: 4rem;
+    background-color: rgb(159, 92, 10);
+
+}
+
+.button-signup {
+    text-align: center;
+}
+
+.signBack {
+    background-color: orange;
+    height: 41rem;
+    width: 50rem;
+    font-family: monospace;
+    padding: 3rem;
+    justify-content: center;
+    display: flex;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.signBack p {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}

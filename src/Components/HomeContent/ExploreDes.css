@@ -1,0 +1,55 @@
+.explore_container {
+  padding-top: 2rem;
+  margin-bottom: 3rem;
+  width: 100% !important;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.explore_card{
+  width: 80%;
+}
+
+.explore_card_title h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0.8rem;
+}
+
+.explore_card_image {
+  display: flex;
+}
+
+.explore_card_image img {
+  height: 55vh;
+  max-width: 32%;
+  margin: 0.5rem;
+}
+
+.explore_card_description p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  /* text-transform: lowercase; */
+}
+
+.explore_card_description h1 {
+  font-size: 3rem;
+  margin: 0.8rem;
+}
+
+.history h1 {
+  font-size: 3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0.8rem;
+}
+
+.history p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  /* text-transform: lowercase; */
+}

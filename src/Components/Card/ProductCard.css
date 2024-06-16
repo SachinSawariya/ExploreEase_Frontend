@@ -1,0 +1,125 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#Product-Container {
+  grid-template-columns: auto auto auto;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  padding-top: 4rem;
+}
+
+.product-area {
+  width: 60%;
+}
+
+.left-container {
+  width: 350px;
+  position: sticky;
+  top: 10rem;
+  height: calc(73vh - 40px);
+  overflow-y: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 1rem;
+}
+
+.Product-Card {
+  display: grid;
+  grid-template-columns: 6fr 8fr 4fr;
+  box-shadow: var(--box-shadow);
+  padding: 2rem 2rem 2rem 2rem;
+}
+.Product-Content {
+  font-size: 14px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.hotel-img {
+  max-width: 220px;
+  height: 220px;
+  filter: contrast(120%);
+  border-radius: 1rem;
+}
+.left-product {
+  border: 2px solid rgb(244, 242, 242);
+  width: 30rem;
+  height: 60vh;
+  border-radius: 1rem;
+  background-color: white;
+}
+.filter {
+  margin: 4rem;
+}
+.left-product form {
+  margin: 4rem;
+  align-items: center;
+}
+
+form select {
+  border: 1px solid rgb(232, 230, 230);
+  /* padding: 1.5rem 1rem 0 3rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+  width: 23rem;
+  color: black;
+}
+.left-product h1 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: rgb(19, 44, 67);
+}
+
+.search-hotel {
+  width: 70%;
+}
+
+.star-category {
+  color: orangered;
+  font-size: 20px;
+}
+
+.product-name {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: serif;
+}
+
+.right-side-card {
+  justify-content: space-between;
+  align-items: center;
+}
+.right-side-info h2 {
+  font-size: 1.4rem;
+  font-family: sans-serif;
+}
+.right-side-info span {
+  font-weight: bold;
+  color: brown;
+}
+.price {
+  color: orangered;
+  border: 1px solid rgb(179, 176, 176);
+  padding: 0.6rem 1.1rem 0.6rem 1.1rem;
+}
+
+.right-side-info h2 {
+  line-height: 3.5rem;
+}
+
+.btn_book {
+  background-color: rgb(219, 146, 9);
+  padding: 0.8rem 1.3rem 0.8rem 1.3rem;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+  margin-top: 2.5rem;
+  border-radius: 0.3rem;
+}
+
+.btn_book:hover {
+  background-color: rgb(159, 107, 12);
+}

@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html {
+  background: #faf7f2;
+  box-sizing: border-box;
+}
+
+.color_lg {
+  color: #aaa;
+}
+
+.main-circle-card--cointainer {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 500px));
+  grid-gap: 0.1px;
+  justify-content: space-around;
+  padding-bottom: 10rem;
+  margin: 2rem;
+}
+
+.card-container {
+  margin: 25px auto 0;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.img_circle {
+  /* width: 300px;
+    height: 300px; */
+  width: 50rem;
+  height: 50rem;
+}
+
+.card {
+  background-color: #fff;
+  padding: 30px;
+  position: relative;
+  box-shadow: 0 0 5px rgba(75, 75, 75, 0.07);
+  z-index: 1;
+}
+
+.card-body {
+  display: inline-block;
+}
+
+.card-number {
+  margin-top: 15px;
+}
+
+.card-info {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  margin: 15px 0 0;
+  text-transform: uppercase;
+}
+
+.card-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 60px;
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+
+.card-description {
+  /* display: inline-block; */
+  font-weight: 300;
+  line-height: 22px;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.card-more {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin: 5px 0 20px;
+  position: relative;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.card-more:after {
+  background-color: #b8bddd;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 9px;
+  width: 75%;
+}
+
+.card-tag {
+  float: right;
+  margin: 5px 0 0;
+  border: 1px solid #aaa;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.card-tag:hover {
+  background: #aaa;
+  color: black;
+}
+
+.card-media {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-shadow {
+  background-color: #fff;
+  box-shadow: 0 2px 25px 2px rgba(0, 0, 0, 1), 0 2px 50px 2px rgba(0, 0, 0, 1),
+    0 0 100px 3px rgba(0, 0, 0, 0.25);
+  height: 1px;
+  margin: -1px auto 0;
+  width: 80%;
+  z-index: -1;
+}
+
+.btn_medium {
+  height: 30px;
+  width: 90px;
+  border-radius: 0.2rem;
+  font-size: 14px;
+  margin-top: 2rem;
+  text-align: center;
+  border: none;
+  font-weight: bold;
+  font-family: monospace;
+  color: white;
+  background-color: rgb(9, 152, 177);
+  text-align: center;
+}
+.btn_medium:hover {
+  background-color: rgb(24, 84, 94);
+  color: white;
+  cursor: pointer;
+}
+.btn_new {
+  text-align: center;
+}
+@media (max-width: 998px) {
+  .main-card--cointainer {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(200px, 500px));
+    grid-gap: 50px;
+    justify-content: space-around;
+  }
+}

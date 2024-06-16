@@ -1,0 +1,121 @@
+:root {
+    --orange: #ff7800;
+    --black: #130f40;
+    --light-color: #666;
+    --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+    --border: 0.2rem solid rgba(0, 0, 0, 0.1);
+    --outline: 0.1rem solid rgba(0, 0, 0, 0.1);
+    --outline-hover: 0.2rem solid var(--black);
+  }
+  .main-login {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+    position: absolute;
+    margin-top: 30rem;
+  }
+  .background {
+    background-image: url("../Media/image1.jpg");
+    background-size: 100% 100%;
+    filter: blur(2px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    width: 100%;
+  }
+  
+  .login-cart {
+    /* height: 100vh; */
+    /* background: linear-gradient(to right,#207b99,#00ffd5); */
+    /* display: flex; */
+  }
+  .form {
+    height: 40rem;
+    width: 35rem;
+    padding: 3rem;
+    background-color: white;
+    font-family: monospace;
+    box-shadow: var(--box-shadow);
+  }
+  .heading {
+    text-align: center;
+  }
+  p {
+    margin: 1rem;
+  }
+  .heading {
+    font-size: 3.5rem;
+    padding-top: 2rem;
+  }
+  .form label {
+    font-size: 1.6rem;
+  }
+  
+  .form input {
+    height: 3rem;
+    width: 28rem;
+    background-color: white;
+    /* margin: 1rem; */
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  .form p {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  #username {
+  }
+  #password {
+  }
+  
+  #btn {
+    width: 12rem;
+    height: 4rem;
+    background-color: orange;
+    color: white;
+    font-family: monospace;
+    cursor: pointer;
+    border: hidden;
+    margin-bottom: 2rem;
+  }
+  #btn:hover {
+    background-color: lightsalmon;
+    color: crimson;
+  }
+  
+  .btn_log {
+    text-align: center;
+  }
+  
+  .loginBack {
+    height: 40rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 55rem;
+    background-color: orange;
+  }
+  .loginBack p {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  .reg_for {
+    text-align: center;
+  }

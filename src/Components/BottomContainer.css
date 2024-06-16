@@ -1,0 +1,32 @@
+.bottom {
+  box-shadow: 0 0.5rem 1.5rem rgba(56, 7, 171, 0.1);
+  margin-top: 5rem;
+}
+.bottom h1 {
+  font-size: 4rem;
+  background-image: linear-gradient(to right, #145bbe, #00ffd5);
+  font-family: monospace;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+}
+.heading_home {
+  color: orange;
+}
+
+/* .bottom hr{
+    height: 1px;
+    width: 100%;
+    background-color: rgb(185, 179, 179);
+    margin-top: 3rem;
+} */
+#heading2 {
+  font-size: 4rem;
+  background-image: linear-gradient(to right, #145bbe, #2c5e56);
+  font-family: monospace;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+}

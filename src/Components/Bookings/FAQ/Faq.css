@@ -1,0 +1,41 @@
+.faq-main-container{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/018/765/444/original/question-mark-icon-in-flat-style-faq-illustration-on-isolated-background-ask-help-sign-business-concept-vector.jpg');
+    background-position: center;
+}
+
+
+
+.faq-container {
+    max-width: 100%;
+    margin-left: 8rem;
+    padding: 20px;
+   
+    
+}
+
+.faq-heading{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+    height: 6rem;
+    width: 100%;
+    background-color: white;
+}
+
+details {
+    margin-bottom: 20px;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    color:rgb(74, 32, 32);
+}
+
+p {
+    margin-top: 5px;
+    font-size: 14px;
+    text-transform: none;
+    color:black;
+}

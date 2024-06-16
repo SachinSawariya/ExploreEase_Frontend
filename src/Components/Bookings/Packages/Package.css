@@ -1,0 +1,107 @@
+/* Package.css */
+.package-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+.filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.heading_packages {
+  font-size: 1.5rem;
+  color: rgb(9, 8, 8);
+  font-weight: bold;
+}
+.filter_data {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.filter_data select {
+  height: 4rem;
+  width: 9rem;
+  font-size: 1.2rem;
+
+  border-radius: 0.3rem;
+  text-align: center;
+}
+.filter_data input {
+  height: 4.1rem;
+  width: 40rem;
+  text-align: center;
+  margin-left: 1rem;
+}
+.package-details {
+  display: flex;
+  max-width: 1200px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+.result {
+  font-size: 2.5rem;
+  font-family: monospace;
+}
+.package-image {
+  width: 400px;
+  height: 300px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.package-info {
+  padding: 20px;
+}
+
+.package-info h2 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #333;
+}
+.package-info p {
+  font-size: 1.4rem;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+.additional-info {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  margin-right: 20px;
+  color: #666;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  color: #ffc107;
+}
+
+.star {
+  margin-right: 5px;
+}
+
+.book-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #129e79;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+  background-color: #0a624c;
+}

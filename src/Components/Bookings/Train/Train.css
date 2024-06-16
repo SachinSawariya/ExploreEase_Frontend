@@ -1,0 +1,363 @@
+.train {
+  margin: auto;
+  height: auto;
+  background-color: rgb(8, 17, 54);
+  background: url("./train.jpg");
+  background-position: center bottom;
+  padding: 7rem;
+  padding-bottom: 15rem;
+}
+.train_details {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.search-box {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  background-color: rgb(252, 252, 252);
+  height: 30rem;
+  border-radius: 0.3rem;
+  padding: 4rem;
+}
+
+.search-input {
+  width: 100%;
+  height: 45rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(252, 252, 252, 0.537);
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  margin: 2rem;
+}
+
+.search-input-box {
+  border-radius: 1rem;
+  padding: 4rem;
+  background-color: rgb(255, 255, 255);
+  
+  box-shadow: 0 0.5rem 1.5rem rgb(179, 177, 177);
+}
+
+.search-input-box input {
+  height: 50%;
+  width: 100%;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(145, 142, 142);
+
+}
+
+.search-input-box span {
+  font-size: 18px;
+}
+.search-class {
+  width: 20%;
+  height: 50%;
+  box-shadow: 0 0.5rem 1.5rem rgb(179, 177, 177);
+  background-color: rgb(255, 255, 255);
+
+  padding: 4px;
+}
+
+.class-option {
+  height: 50%;
+  border-radius: 1rem;
+}
+
+.train-btn {
+  background-color: rgb(65, 185, 159);
+  margin-left: 3.5rem;
+  margin-top: -2.5rem;
+  border-radius: 2.9rem;
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  color: white;
+  font-size: 1.7rem;
+}
+
+/* ---------------- train data ------------------ */
+
+.search-result {
+  margin-top: 2rem;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.train-container {
+  height: auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.train-card {
+  width: 80%;
+}
+
+.train ul li {
+  list-style: none;
+}
+
+.train-results {
+  margin: 2rem;
+  border: 2px solid rgb(84, 207, 84);
+  border-radius: 1rem;
+  background-color: aliceblue;
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+.train-info {
+  font-size: small;
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 5fr;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+
+.train-details {
+  grid-column: 2/3;
+}
+
+.train-right-info {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+}
+
+.train-name {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+.train-number {
+  color: blue;
+  font-weight: 600;
+}
+.departure-time,
+.arrival-time {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.travel-duration {
+  color: blue;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.train {
+  margin: auto;
+  padding: 4rem;
+  height: auto;
+}
+
+.search-box {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  background-color: rgb(86, 169, 204);
+  height: 30rem;
+  border-radius: 1rem;
+  padding: 4rem;
+}
+
+.search-input {
+  width: 80%;
+  height: 25rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(248, 247, 245, 0.537);
+  font-size: 16px;
+  margin-top: 1rem; 
+  border-radius: 1rem;
+}
+
+.search-input-box {
+  height: 50%;
+  width: 30%;
+  border: 0.6px solid rgb(82, 82, 92);
+  border-radius: 1rem;
+  padding: 4px;
+}
+
+.search-input-box input {
+  height: 50%;
+  width: 100%;
+  padding: 4px;
+  border-radius: 1rem;
+}
+
+.search-input-box span {
+  font-size: 18px;
+  color: blue;
+  font-weight: bold;
+}
+.search-class {
+  width: 20%;
+  height: 50%;
+  border: 0.6px solid darkblue;
+  padding: 4px;
+}
+
+.class-option {
+  height: 50%;
+  border-radius: 1rem;
+}
+
+.search-btn {
+  background-color: aliceblue;
+  margin-top: -2.5rem;
+  border-radius: 2rem;
+}
+
+*/
+
+/* ---------------- train data ------------------ */
+
+/*
+.search-result {
+  margin-top: 2rem;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.train-container {
+  height: auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.train-card {
+  width: 80%;
+}
+
+.train ul li {
+  list-style: none;
+}
+
+.train-results {
+  margin: 2rem;
+  border: 2px solid rgb(84, 207, 84);
+  border-radius: 1rem;
+  background-color: aliceblue;
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+.train-info {
+  font-size: small;
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 5fr;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+
+.train-details {
+  grid-column: 2/3;
+}
+
+.train-right-info {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+}
+
+.train-name {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+.train-number {
+  color: blue;
+  font-weight: 600;
+}
+.departure-time,
+.arrival-time {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.travel-duration {
+  color: blue;
+  font-weight: 500;
+}
+
+
+
+.train-pagination-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.train-pagination {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+}
+
+.train-page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.page-link:hover {
+  background-color: #0056b3;
+}
+
+.page-link:focus {
+  outline: none;
+}
+
+*/

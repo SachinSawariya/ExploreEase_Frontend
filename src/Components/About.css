@@ -1,0 +1,49 @@
+/* About.css */
+
+.about {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: linear-gradient(to right, #0b040b, #056353);
+  padding-bottom: 2rem;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text {
+  flex: 1;
+  /* padding-right: 20px; */
+}
+
+.image {
+  flex: 1;
+}
+
+.about h2 {
+  color: #979595;
+  font-size: 4rem;
+}
+
+.about p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+  text-align: justify;
+}
+
+.image img {
+  /* max-width: 400px; */
+  height: auto;
+  border-radius: 8px; /* Add a border radius for a rounded corner effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+}
+.border_about {
+  height: 193vh;
+  width: 1.5px;
+  background-color: rgb(195, 194, 190);
+  margin-top: 1rem;
+}

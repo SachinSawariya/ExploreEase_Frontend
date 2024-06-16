@@ -1,0 +1,195 @@
+.booking-container {
+  height: auto;
+  max-width: 100%;
+  padding-bottom: 15rem;
+}
+
+.booking-cart {
+  margin-top: 2rem;
+}
+
+.border {
+  height: 78vh;
+  width: 0.1px;
+  background-color: rgb(222, 219, 219);
+  box-shadow: 0 0.5rem 1.5rem rgba(238, 115, 8, 0.1);
+}
+
+.booking-main-cart {
+  height: 90vh;
+  display: flex;
+  background-color: #f7f8f8;
+  justify-content: space-evenly;
+  padding-top: 3rem;
+  align-items: center;
+}
+.hotel-images {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  margin-left: 3rem;
+}
+
+.hotel-images img {
+  width: 80rem;
+  margin-bottom: 10px;
+  border-radius: 0.5rem;
+  filter: contrast(120%);
+}
+
+.image-thumbnails {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-thumbnails img {
+  width: 85px;
+  height: auto;
+  cursor: pointer;
+  margin: 0.7rem;
+}
+
+.heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: black;
+}
+.booking-form h1 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+}
+
+.form-group input {
+  width: 50rem;
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.btn-book {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #16cd87;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-book:hover {
+  background-color: #17806e;
+}
+.amenities_info_container {
+  height: auto;
+  width: 100%;
+}
+
+/* .amenities_info_card {
+}
+.amenities_info {
+} */
+.room_facilities {
+  height: 5rem;
+  width: 100%;
+  background-color: rgb(149, 198, 210);
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0.1rem 0.5rem 1.5rem rgb(149, 198, 210);
+}
+.heading_hotel {
+  font-size: 2.8rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+  color: rgb(9, 28, 68);
+  font-family: monospace;
+}
+.room_facilities h1 {
+  font-size: 1.6rem;
+  padding: 1rem;
+  font-weight: bold;
+}
+.hotel_facilities {
+  height: 18rem;
+  width: 100%;
+  /* background-color: white; */
+  font-size: 1.6rem;
+  display: flex;
+}
+/* .hotel_facilities {
+align-items: center;
+} */
+.hf {
+  display: flex;
+  align-items: center;
+  margin: 4rem;
+}
+.hf img {
+  height: 3.5rem;
+}
+.hotel_facilities h1 {
+  font-size: 1.4rem;
+  padding: 3rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.hotel_info {
+  height: 45rem;
+  width: 100%;
+}
+.hotel_info h1 {
+  height: 5rem;
+  width: 100%;
+  font-size: 1.6rem;
+  padding: 1rem;
+  background-color: rgb(149, 198, 210);
+  font-weight: bold;
+  box-shadow: 0 0.5rem 1.5rem rgb(149, 198, 210);
+}
+.hotel_info p {
+  font-size: 1.3rem;
+  padding: 2rem;
+}
+.about_hotel {
+  height: 30rem;
+  width: 100%;
+  align-items: center;
+}
+.about_hotel h1 {
+  height: 5rem;
+  width: 100%;
+  font-size: 1.6rem;
+  padding: 1rem;
+  box-shadow: 0 0.5rem 1.5rem rgb(149, 198, 210);
+  background-color: rgb(149, 198, 210);
+
+  font-weight: bold;
+}
+.about_hotel p {
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  padding: 1.5rem;
+  text-transform: lowercase;
+  line-height: 2.5rem;
+}
+
+.about_hotel_img {
+  display: grid;
+  grid-template-columns: 0.3fr 0.3fr 0.3fr 0.3fr;
+}
